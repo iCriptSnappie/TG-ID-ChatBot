@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 const { Telegraf } = require('telegraf');
 const { parseMode } = require('telegraf/markup');
 
-const config = require('./config');
+const config = require('../config');
 
 const winston = require('winston');
 
